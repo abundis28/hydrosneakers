@@ -1,0 +1,94 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(tennisAzul.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contenedor{
+	height: 15rem;
+	width: 100%;
+}
+
+section{
+	width: 100%;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo{
+	height: 25rem;
+	width: 35rem;
+}
+
+h1{
+	font-size: 3rem;
+	color: white;
+	text-decoration-style: bold;
+}
+
+.portada{
+	height: 7rem;
+}
+
+.buffer{
+	height: 4rem;
+	width: 100%;
+}
+
+hr{
+	border-color: #03194B;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.btn-xl{
+	text-align: center;
+	padding: 1rem 2rem;
+}
+
+.btn{
+	font-weight: 600;
+	border-radius: 200px;
+}
+
+.btn-danger{
+	border: solid #03194B;
+	background-color: #03194B;
+}
+
+.btn:hover{
+	background-color: white;
+	border: 6px solid #03194B;
+	color: #03194B;
+}
+
+.buscar:hover{
+	border: solid #03194B;
+}
+
+.container{
+	height: 30rem;
+	width: 100%;
+}
+
+section{
+		scroll-behavior: smooth;
+}
+
+label{
+	background-color: transparent;
+}
+
+.video{
+	width: 40rem;
+	height: 30rem;
+}
